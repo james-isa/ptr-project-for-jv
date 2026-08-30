@@ -1,0 +1,6 @@
+{
+  "name": "Portal Tangerang Raya",
+  "description": "Portal berita terkini, layanan publik, direktori UMKM, pariwisata, agenda komunitas, dan listing properti terintegrasi Tangerang Raya.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

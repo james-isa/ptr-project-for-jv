@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* Custom Bento Grid styling and utility animations */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .bento-card {
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .bento-card:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Base font settings */
+html {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f8fafc;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}

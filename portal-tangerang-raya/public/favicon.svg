@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="100%" height="100%">
+  <rect width="64" height="64" rx="16" fill="#020617" />
+  <!-- Light Burst Accent -->
+  <circle cx="50" cy="14" r="5" fill="#38bdf8" opacity="0.6" />
+  <circle cx="50" cy="14" r="2" fill="#ffffff" />
+  
+  <!-- TR Icon Simplified for 16px/32px -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Outer Cyan TR -->
+    <path d="M 14 20 L 44 20 M 26 20 L 14 48 M 34 20 C 44 20 48 25 48 31 C 48 37 44 41 35 41 L 27 41 M 33 41 L 46 54" stroke="#00d2ff" stroke-width="4.5" />
+    <!-- Inner White Core -->
+    <path d="M 19 25 L 39 25 M 29 25 L 19 46 M 34 25 C 40 25 43 28 43 31 C 43 35 40 37 34 37 L 29 37 M 35 37 L 43 51" stroke="#ffffff" stroke-width="2.5" />
+  </g>
+</svg>
